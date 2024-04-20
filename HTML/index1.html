@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paganini的个人网站</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+     <style>
+    h1 {
+      font-size: 45px; /*字体大小*/
+      color: #dba8ce; /*字体颜色*/
+      text-align: justify; /*文本对齐方式*/
+      text-justify: inter-ideograph; /*文本两端对齐*/
+      text-indent: 13em; /*首行缩进*/
+    }
+    body {
+      background: url("./壁纸/bizhi4.JPG") no-repeat center center fixed; /*背景图片*/
+      /*兼容浏览器版本*/
+      -webkit-background-size: cover; /*针对Safari、Chrome、iOS等webkit内核浏览器*/
+      -o-background-size: cover; /*针对Opera*/
+      background-size: cover; /*普通的标准语法*/
+    }
+    * {
+      font-family: "楷体"; /*设置字体*/
+      font-weight: bold; /*设置字体粗细*/
+
+    .father > .son{
+        color: rgb(228, 236, 0);
+
+      font-size: 42px;
+    }
+    .father p {
+      color: #ff0000;
+      font-size: 55px;
+    }
+    #weilei:hover {
+      background-color: #ff0000;
+    }
+
+
+
+
+    }
+  </head>
+ 
+  </style>
+  <body>
+    <div id="navi">
+      <h1>Paganini的个人网站</h1>
+      <form action="">
+        <label for="username">用户名：</label>
+        <input type="username" id="username" placeholder="请输入用户名" /><br />
+        <br />
+        <label for="password">密码：</label>
+        <input type="password" id="password" placeholder="请输入密码" /><br />
+        <input type="submit" value="登录" /><br /><br />
+        <label for="性别">性别</label>
+        <input type="radio" name="性别" />男<input type="radio" name="性别" />女
+        <br />
+        <input type="checkbox" name="记住密码" id="123" />记住密码
+      </form>
+      <form action="#"></form>
+    </div>
+    <h2 style="color: red">这是一个内联样式的H2标签</h2>
+    <h3>这是一个h3的标签，应用了外部CSS样式</h3>
+
+    <div class="father">
+      <p class="son">子元素实例</p>
+      <div>
+        <p class="sunzi">这是一个后代选择器实例</p>
+        
+        </div>
+      
+    </div>
+    <h4 id="weilei">这是一个伪类的标签</h4>
+      
+  </body>
+</html>
